@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    width: 10rem;
+    height: 50rem;
+    border-radius: 13px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-left: 20rem;
+    padding-top: 5px;
+    text-align: center;
+    background: rgb(41, 41, 41);
+    cursor: pointer;
+    /* background: linear-gradient(to left, rgb(31, 29, 29) 62.5%, #274da7 0%); */
+}

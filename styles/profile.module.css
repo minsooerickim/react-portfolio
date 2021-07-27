@@ -1,0 +1,11 @@
+.profile {
+    border-radius: 13px;
+    background: #274da7;
+}
+.container {
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,0 +1,12 @@
+.project {
+    border-radius: 13px;
+    background: rgb(41, 41, 41);
+    margin-bottom: 30px;
+    padding: 15px 15px;
+}
+.title {
+    font-size: large;
+}
+.description {
+    color: rgb(185, 183, 183);
+}
