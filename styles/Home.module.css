@@ -2,7 +2,7 @@
 .wrapper {
     text-align: center;
     border-radius: 13px;
-    background-color: rgb(31, 29, 29);
+    background-color: rgb(45, 45, 45);
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
     margin-left: 35rem;
     margin-right: 35rem;
@@ -20,5 +20,6 @@
     color: rgb(185, 183, 183);
 }
 .projects h1 {
-    color: #274da7
+    color: #274da7;
+    font-size: xxx-large
 }
