@@ -13,6 +13,7 @@ export default class NavBar extends Component {
         return (
             <div>
                 <div className={styles.nav}>
+                    
                     <motion.a 
                         animate={{
                             scale: [1, 2, 2, 1, 1],
@@ -56,7 +57,7 @@ export default class NavBar extends Component {
                         whileHover={{ scale: 1.1,
                         rotate:[0,0,180,180,0] }}
                         whileTap={{ scale: 0.9 }}  
-                        className={styles.icons} href="/">
+                        className={styles.icons} href="../public/data/resume.pdf" target="_blank" download>
                         <Image
                             src={Resume}
                             alt="Resume Icon"

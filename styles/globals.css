@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
 
-html,
+html {
+  z-index: 9;
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Baloo Chettan 2', cursive !important;
   padding: 0;
@@ -9,6 +12,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   /* background: black; */
   background: linear-gradient(to right, rgb(31, 29, 29) 60%, #274da7 0%);
+  margin-top: 0;
 }
 
 a {

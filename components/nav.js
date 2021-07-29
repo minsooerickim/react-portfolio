@@ -13,13 +13,16 @@ export default class NavBar extends Component {
         return (
             <div>
                 <div className={styles.nav}>
-                    <motion.a                 
-                        animate={{
+                    <motion.a            
+                        animate={{                            
                             scale: [1, 2, 2, 1, 1],
                             rotate: [0, 0, 270, 270, 0],
                             borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                         }}    
-                        href="/" className={styles.icons} classname={styles.navIcon}>
+                        whileHover={{ scale: 1.1,
+                        rotate:[0,0,180,180,0] }}
+                        whileTap={{ scale: 0.9 }}  
+                        href="#home" className={styles.icons} classname={styles.navIcon}>
                         <div className={styles.container}>
                             <Image
                                 src={Home}
@@ -27,9 +30,6 @@ export default class NavBar extends Component {
                                 quality={100}
                                 placeholder="blur"
                             />
-                            <div class={styles.overlay}>
-                                <div class={styles.text}>Home</div>
-                            </div>
                         </div>
                     </motion.a>
                     <motion.a 
@@ -38,7 +38,10 @@ export default class NavBar extends Component {
                             rotate: [0, 0, 270, 270, 0],
                             borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                         }}   
-                        href="/projects" className={styles.icons}>
+                        whileHover={{ scale: 1.1,
+                        rotate:[0,0,180,180,0] }}
+                        whileTap={{ scale: 0.9 }}  
+                        href="#projects" className={styles.icons}>
                         <div className={styles.container}>
                             <Image  
                                 src={Projects}
@@ -46,9 +49,6 @@ export default class NavBar extends Component {
                                 quality={100}
                                 placeholder="blur"
                             />
-                            <div class={styles.overlay}>
-                                    <div class={styles.text}>Projects</div>
-                            </div>
                         </div>
                     </motion.a>
                     <motion.a 
@@ -57,7 +57,10 @@ export default class NavBar extends Component {
                             rotate: [0, 0, 270, 270, 0],
                             borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                         }}   
-                        href="/about" className={styles.icons}>
+                        whileHover={{ scale: 1.1,
+                        rotate:[0,0,180,180,0] }}
+                        whileTap={{ scale: 0.9 }}  
+                        href="#about" className={styles.icons}>
                         <div className={styles.container}>
                             <Image  
                                 src={About}
@@ -65,9 +68,6 @@ export default class NavBar extends Component {
                                 quality={100}
                                 placeholder="blur"
                             />
-                            <div class={styles.overlay}>
-                                        <div class={styles.text}>About</div>
-                            </div>
                         </div>
                     </motion.a>
                 </div>

@@ -3,7 +3,7 @@
     text-align: center;
     border-radius: 13px;
     background-color: rgb(45, 45, 45);
-    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
     margin-left: 35rem;
     margin-right: 35rem;
     margin-top: 30px;
@@ -11,11 +11,13 @@
     padding-left: 40px;
     padding-right: 40px;
     color: white;
-    
 }
 .header h1 {
     color: #274da7;
     font-size: xxx-large;
+}
+.title {
+    font-size: x-large;
 }
 .description {
     color: rgb(185, 183, 183);
@@ -27,6 +29,15 @@
 .about {
     margin-bottom: 30px;
 }
-.container {
-    margin-top:0px;
+.image {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    
 }

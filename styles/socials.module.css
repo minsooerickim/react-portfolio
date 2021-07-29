@@ -17,6 +17,10 @@
     text-align: center;
     background: rgb(45, 45, 45);
     cursor: pointer;
+    
+    position: fixed;
+    z-index: 99;
+    right: 0;
     /* background: linear-gradient(to left, rgb(31, 29, 29) 62.5%, #274da7 0%); */
 }
 .icons {
