@@ -4,9 +4,14 @@
     margin-bottom: 30px;
     padding: 15px 15px;
 }
-
+.project:hover .projectDescription{
+    color: white;
+}
+.project:hover .title {
+    color: #274da7;
+}
 .project:hover {
-    color:#274da7;
+    background: rgb(31, 29, 29);
 }
 .title {
     font-size: x-large;
