@@ -22,13 +22,26 @@ export default function projects() {
                         whileTap={{ scale: 0.9 }}
                     >
                         <Projects                    
+                            title="Task Scheduler"
+                            date="Sept 2021 - Present"
+                            description="• Woked with the agile scrum methodology with 3 other people to design, implement, and test the software"
+                            description2="• Used the composite and strategy pattern to simplify client interaction and to allow for families of related algorithms and to vary the algorithm independantly from the context."
+                            link="https://github.com/minsooerickim/"
+                        />
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.1,
+                        rotate:[0,0,5,5,0] }}
+                        whileTap={{ scale: 0.9 }}
+                    >
+                        <Projects                    
                             title="WallStatusBets.io"
                             date="Jul 2021 - Sept 2021"
                             description="• Built a fullstack CRUD web application using MERN stack that retrieves data from a
                             subreddit to provide graphical and statistical data for users to get insight on their stock
                             of interest with Snoowrap and Chart.js"
                             description2="• Validated user inputs with a collection of all the pre-approved user inputs on MongoDB"
-                            link="https://thumbnailgame.herokuapp.com/"
+                            link="https://github.com/minsooerickim/wall-status-bets"
                         />
                     </motion.div>
                     <motion.div
@@ -39,8 +52,8 @@ export default function projects() {
                         <Projects                    
                             title="Thumbnail Game"
                             date="April 2021"
-                            description="fun game to test your knowledge in creating effective thumbnails"
-                            description2="test"
+                            description="• Developed a user-interactive game to help players learn more about video production"
+                            description2="• Constructed an algorithm to extract the appropriate thumbnails using Javascript on the returned JSON data from the Youtube API"
                             link="https://thumbnailgame.herokuapp.com/"
                         />
                     </motion.div>
@@ -51,13 +64,13 @@ export default function projects() {
                     >
                         <Projects                    
                             title="Covid Availability Alert"
-                            date="April 2021"
-                            description="Checks for vaccine appointment availability every 10 seconds and sends an email when a spot opens up at a desired cvs location"
-                            description2="test"
+                            date="Mar 2021 - Apr 2021"
+                            description="• Created a Python web scraper, hosted on Heroku to recursively check for vaccine appointment availability using BeautifulSoup and Selenium Web Driver"
+                            description2="• Automated email responses with smtplib upon finding a local vaccine availability"
                             link="https://github.com/minsooerickim/covid-availability-alert"
                         />
                     </motion.div>
-                    <motion.div
+                    {/* <motion.div
                         whileHover={{ scale: 1.1,
                         rotate:[0,0,5,5,0] }}
                         whileTap={{ scale: 0.9 }}
@@ -131,10 +144,9 @@ export default function projects() {
                             title="tic-tac-toe"
                             date="Dec 2020"
                             description="First game ever made!"
-                            description2="test"
                             link="https://github.com/minsooerickim/tic-tac-toe"
                         />    
-                    </motion.div>
+                    </motion.div> */}
                 </div>
             </div>
         </main>

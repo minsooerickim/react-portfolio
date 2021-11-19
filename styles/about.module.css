@@ -18,9 +18,11 @@
 }
 .title {
     font-size: x-large;
+    margin-bottom: 0;
 }
 .description {
     color: rgb(185, 183, 183);
+    margin-top: 0;
 }
 .projects h1 {
     color: #274da7;

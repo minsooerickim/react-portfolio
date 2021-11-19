@@ -1,7 +1,7 @@
 .project {
     border-radius: 13px;
     background: rgb(41, 41, 41);
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
     padding: 15px 15px;
 }
 .project:hover .projectDescription{
