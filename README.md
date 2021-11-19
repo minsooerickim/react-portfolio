@@ -1,3 +1,11 @@
+# react-portfolio
+
+![Alt Text](imgs/navGif.gif)
+
+![Alt Text](imgs/projGif.gif)
+
+![Alt Text](imgs/linkGif.gif)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
