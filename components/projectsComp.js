@@ -9,6 +9,7 @@ export default function projects(props) {
                 <div className={styles.description}>
                     <div>{props.date}</div>
                     <div className={styles.projectDescription}>{props.description}</div>
+                    <div className={styles.projectDescription}>{props.description2}</div>
                 </div>
             </div>
         </a>

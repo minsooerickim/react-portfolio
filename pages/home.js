@@ -11,7 +11,11 @@ import Profile from "../components/profile.js"
 import Socials from "../components/socials"
 import Projects from "../components/projects"
 import About from "../components/about"
+import ExtraCurr from "../components/ExtraCurr"
 import { motion } from "framer-motion"
+
+import Image from "next/image"
+import UCR from "../imgs/UCR.png"
 
 import FOG from "vanta/dist/vanta.fog.min";
 import * as THREE from "three";
@@ -64,17 +68,21 @@ export default function Home() {
                       whileTap={{ scale: 0.9 }}
                       >Welcome! I'm Minsoo Kim.</motion.h1>
                       <Profile/>
-                      <p classname={styles.subHeading}>Software Engineer in Southern California</p>
+                      <h2 classname={styles.title}>Software Engineer in Southern California</h2>
                   </div>
-                  <p className={styles.description}>I'm currently a Sophomore studying Computer Science at the University of California, Riverside. My interests include Web Development, Game Development, Mobile Applications, and Software Engineering!</p>
+                  <p className={styles.description}>I'm currently a Junior pursuing a Bachelors of Science in Computer Science at the University of California, Riverside. My interests include Software Engineering, Web Development, and Mobile Applications.</p>
+
+                  <div className={styles.section}>
+                        <p className={styles.white}><br/>Computer Science @ UCR<br/><span className={styles.description}>Expected Graduation - Dec 2023</span></p>
+                        <div className={styles.image}>
+                        <Image
+                            src={UCR}
+                        />
+                        </div>
+                        <p className={styles.description}>Cumulative GPA <span className={styles.white}>4.0/4.0</span></p>
+                  </div>
+
               </div>
-            </motion.div>
-            <motion.div
-              initial={{ x: '-100vw' }}
-              animate={{ x: 0 }}
-              transition={{ type: 'spring', duration: 1, bounce: 0.3 }}
-            >
-              <Projects/>
             </motion.div>
             <motion.div
               initial={{ y: '100vw' }}
@@ -82,6 +90,20 @@ export default function Home() {
               transition={{ type: 'spring', duration: 1, bounce: 0.3 }}
             >
               <About/>
+            </motion.div>
+            <motion.div
+              initial={{ y: '100vw' }}
+              animate={{ y: 0 }}
+              transition={{ type: 'spring', duration: 1, bounce: 0.3 }}
+            >
+              <ExtraCurr/>
+            </motion.div>
+            <motion.div
+              initial={{ x: '-100vw' }}
+              animate={{ x: 0 }}
+              transition={{ type: 'spring', duration: 1, bounce: 0.3 }}
+            >
+              <Projects/>
             </motion.div>
             
         </main>
