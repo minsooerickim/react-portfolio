@@ -12,6 +12,7 @@ export default function projects() {
                     <h1>Activities</h1>
                     <div>
                         <p className={styles.title}>CSE Reader/Grader</p>
+                        <p className={styles.description}>Grader</p>
                         <div className={styles.image}>
                         <Image
                             src={Bcoe}
@@ -21,6 +22,7 @@ export default function projects() {
                     </div>
                     <div>
                         <p className={styles.title}>Cyber@UCR</p>
+                        <p className={styles.description}>CyberSecurity Club at UCR</p>
                         <div className={styles.image}>
                         <Image
                             src={Cyber}
@@ -30,6 +32,7 @@ export default function projects() {
                     </div>
                     <div className={styles.bottomSection}>
                         <p className={styles.title}>Competitive Programming</p>
+                        <p className={styles.description}>Competitive Programming Club at UCR</p>
                         <div className={styles.image}>
                         <Image
                             src={Cp}

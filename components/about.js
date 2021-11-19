@@ -2,14 +2,24 @@ import Image from "next/image"
 
 import styles from "../styles/about.module.css"
 import Unifi from "../imgs/unifi.png"
-import UCR from "../imgs/UCR.png"
+import Prytaneum from "../imgs/prytaneum.png"
 import CutieHack from "../imgs/CutieHack.png"
 export default function projects() {
     return (
-        <main id="about" className={styles.about}>
+        <main id="experience" className={styles.about}>
             <div className={styles.wrapper}>
                 <div className={styles.header}>
                     <h1>Experience</h1>
+                    <div>
+                        <p className={styles.title}>Undergraduate Research Assistant @ Prytaneum</p>
+                        <p className={styles.description}>Nov 2021 - Present</p>
+                        <div className={styles.image}>
+                        <Image
+                            src={Prytaneum}
+                        />
+                        </div>
+                        <p className={styles.description}>• Backend developer for Prytaneum, a platform developed by UCR faculty and students to enable online town-hall deliberation and discussion</p>
+                    </div>
                     <div>
                         <p className={styles.title}>FrontEnd Developer @ CutieHack</p>
                         <p className={styles.description}>Jul 2021 - Sept 2021</p>
